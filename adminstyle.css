@@ -1,0 +1,44 @@
+body{
+  background-image: url(https://www.gstatic.com/earth/social/00_generic_facebook-001.jpg);
+  background-size: cover;  
+  font-family: sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+
+#transbox{
+	  width: 80%;
+	  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  border: 1px solid #24d9ff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  text-align: top;
+
+}
+img{
+  width: 100%;
+}
+
+#imagebox{
+width: 10%;
+	  height: 10%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  padding-bottom: 15px;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+
